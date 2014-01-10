@@ -72,21 +72,6 @@ body {
   font-size: 16px;
 }
 .bar li a:hover { text-decoration: underline; }
-.bar li a.facebook, 
-.bar li a.twitter {
-  display: block;
-  width: 42px;
-  height: 34px;
-  margin-top: 14px;
-  margin-left: 8px;
-  padding: 0;
-  text-indent: -9000px;
-  background-image: url("/images/header/social_icons.png");
-  
-}
-.bar li a.twitter {
-  background-position: 42px 0;
-}
 .bar .notice {
   font-size: 14px;
   margin-left: 58px;
@@ -120,7 +105,7 @@ body {
 #telephone {
   background-color: #fff;
   text-align: right;
-  background-image: url("/images/header/bg.png");
+  background-image: url("{{ site.baseurl }}/images/header/bg.png");
   bacground-repeat: no-repeat;
   position: relative;
   width: 100%;
@@ -189,7 +174,7 @@ body {
 
 #blog {
   clear: both;
-  background-image: url("/images/body/black_down_arrow.png");
+  background-image: url("{{ site.baseurl }}/images/body/black_down_arrow.png");
   background-repeat: no-repeat;
   background-position: 150px 0;
   width: 1000px;
@@ -333,7 +318,7 @@ ul.social-buttons li{
 
 #main {
   clear: both;
-  background-image: url("/images/body/black_down_arrow.png");
+  background-image: url("{{ site.baseurl }}/images/body/black_down_arrow.png");
   background-repeat: no-repeat;
   background-position: center 0;
 }
@@ -371,7 +356,7 @@ ul.social-buttons li{
 }
 .checkpoint {
   color: #555;
-  background-image: url("/images/body/checkmark.png");
+  background-image: url("{{ site.baseurl }}/images/body/checkmark.png");
   background-repeat: no-repeat;
   padding-left: 100px;
   height: 70px;
@@ -400,13 +385,13 @@ ul.social-buttons li{
 }
 
 .striped {
-  background-image: url("/images/body/texture.png");
+  background-image: url("{{ site.baseurl }}/images/body/texture.png");
   background-color: #eee;
   border-top: 1px dashed #ddd;
   border-bottom: 1px dashed #ddd;
 }
 #encrypted_texts .striped { 
-  background-image: url("/images/body/texture_light.png");
+  background-image: url("{{ site.baseurl }}/images/body/texture_light.png");
   background-color: #fafafa;
 }
 
@@ -485,7 +470,7 @@ ul.features li a.active {
   text-align: center;
   color: #fff;
   font-size: 25px;
-  background-image: url("/images/body/white_down_arrow.png");
+  background-image: url("{{ site.baseurl }}/images/body/white_down_arrow.png");
   background-repeat: no-repeat;
   background-position: center -1px;
 }
@@ -539,7 +524,7 @@ pre {
  *********/
 
 i.icon {
-  background-image: url("/images/body/icons.png");
+  background-image: url("{{ site.baseurl }}/images/body/icons.png");
   background-repeat: no-repeat;
   display: inline-block;
   position: absolute;
