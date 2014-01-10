@@ -1,0 +1,14 @@
+---
+layout: blog
+---
+
+<article>
+
+{% assign parts = content | split: 'XXXXX' %}
+{{ parts.first }}
+{% if parts[1] %}
+{{ parts[1] }}
+{% endif %}
+
+
+</article>

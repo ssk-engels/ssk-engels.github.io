@@ -1,0 +1,18 @@
+---
+layout: root
+---
+
+<section id="blog">
+
+  <section id="title">
+    {% assign title_parts = page.title | split: ' >> ' %}
+    {% if title_parts[1] and title_parts.first == "Новости" %}
+      <h2><a href="/blog/">Новости</a> >> {{ title_parts[1] }}</h2> <!-- why the ">>", suggest changing that, or adding it h2 css declaration via pseudoselector -->
+    {% else %}
+      <h2>{{ page.title }}</h2>
+    {% endif %}
+  </section>
+
+  {{ content }}
+
+</section>

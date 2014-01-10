@@ -1,0 +1,9 @@
+safe: true
+pygments: true
+exclude:
+  - Gemfile
+  - Gemfile.lock
+  - .gitignore
+  - Makefile
+  - README.md
+permalink: /blog/:title
